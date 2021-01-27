@@ -1,0 +1,38 @@
+#c1{
+        padding-right: 50px;
+}
+td{
+    padding-bottom: 10px;  
+}
+body{
+    background-image: url(https://www.wallpapertip.com/wmimgs/165-1659799_free-space-pictures-without-copyright-background-galaxy-planet.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    color: white;
+}  
+.heading{
+    text-align: center;
+}
+table{
+    margin: auto;
+    margin-top: 50px;
+}
+button{
+    color: white;
+    background-color: #0033cc;
+}
+.height{
+    height: 30px;
+}
+.height1{
+    height: 17px;
+}
+.width1{
+    width: 350px;
+}
+.width2{
+     width: 116px;
+}
+.width3{
+    width: 358px;
+}
