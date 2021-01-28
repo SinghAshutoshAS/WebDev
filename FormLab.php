@@ -75,12 +75,12 @@ if(isset($_POST["submit"])){
 	<tr>
 		<td>Course</td>
 		<td><select style="width: 422px " name="course">
-		<option >Btech</option>
-		<option>Bca</option>
-		<option>Bcom</option>
-		<option>Bba</option>
-		<option>Bsc</option>
-		<option>Other</option>
+		<option >B-Tech</option>
+		<option>BCA</option>
+		<option>B-Com</option>
+		<option>BBA</option>
+		<option>BSC</option>
+		<option>Others</option>
 	    </select></td>
 	</tr>
 	<tr>
