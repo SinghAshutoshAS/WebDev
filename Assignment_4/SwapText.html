@@ -1,0 +1,43 @@
+<htm>
+    <head>
+        <title>Swap Paragraph</title>
+        <style>
+            .p1{
+                color:rgb(37, 219, 13);
+                font-weight: 1000;           }
+            .p2{
+                color:rgb(255, 0, 149);
+                font-weight: 1000;
+            }
+            button{
+                align-content: center;
+                margin-left: 47%;
+                margin-top: 5%;
+                height: 40px;
+                width: 100px;
+                background-color: rgb(255, 251, 0);
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Paragraph 1</h3>
+        <p class="p1">
+            Front-end web development is the practice of converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.
+        </p>
+        <h3>Paragraph 2</h3>
+        <p class="p2">
+            Back-end web development is the practice of storing data, applying operations, managing data effevtively.
+        </p>
+        <button onclick="changeText()">SWAP</button>
+        <script>
+            function changeText()
+            {
+                p1=document.getElementsByClassName('p1')[0];
+                p2=document.getElementsByClassName('p2')[0];
+                temp=p1.textContent;
+                p1.textContent=p2.textContent;
+                p2.textContent=temp;
+            }
+        </script>
+    </body>
+</htm>
